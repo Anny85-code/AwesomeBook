@@ -1,5 +1,4 @@
-const saveToLocalStorage = (key, data) =>
-  localStorage.setItem(key, JSON.stringify(data));
+const saveToLocalStorage = (key, data) => localStorage.setItem(key, JSON.stringify(data));
 const getFromLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
 
 class Book {
@@ -47,9 +46,7 @@ class Book {
 function displayBooks() {
   const bookItems = Book.getAllBooks();
 
-  const booksCode = bookItems.map((book) =>
-    new Book(book.title, book.author, book.id).getCode()
-  );
+  const booksCode = bookItems.map((book) => new Book(book.title, book.author, book.id).getCode());
   document.getElementById('bitems').innerHTML = booksCode.join('');
 
   const removeButtons = Array.from(document.querySelectorAll('.remove'));

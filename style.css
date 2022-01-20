@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('images.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.header {
+  margin-top: 50px;
+  height: 60vh;
+}
+
+.h1 {
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.contable {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+table tr {
+  display: flex;
+  justify-content: space-between;
+  width: 100% !important;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(148, 147, 147, 0.502);
+}
+
+td {
+  padding: 20px;
+}
+
+table td .remove {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+hr {
+  width: 50%;
+}
+
+.hr {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.alltext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  margin-top: 30%;
+}
+
+input {
+  display: flex;
+  border-radius: 0;
+  border: 1px solid rgb(17, 2, 105);
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+  color: rgb(63, 62, 62);
+}
+
+.alltext button {
+  display: flex;
+  align-self: flex-end;
+  background-color: rgb(71, 71, 71);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.heading {
+  color: #fff;
+  text-align: center;
+}
+
+.conmain {
+  overflow: hidden;
+  height: 75vh;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  background-color: white;
+  margin: 20px 20px;
+  padding: 0 10px;
+}
+
+nav .weblogo {
+  text-decoration: none;
+  color: black;
+}
+
+.ul {
+  display: flex;
+  padding: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 30px;
+  color: #fff;
+}
+
+.conbooks {
+  display: block;
+}
+
+.form {
+  display: none;
+}
+
+.contactsection {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  width: 80%;
+  margin-left: 10%;
+  height: 65vh;
+}
+
+.contactul {
+  padding: 10px;
+}
+
+.contactsection p {
+  padding: 10px;
+}
+
+.contactsection li {
+  padding: 2px;
+}
+
+.hide-contact {
+  display: none;
+}
+
+.hide-form {
+  display: none;
+}
+
+.hide-list {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 20px 20px;
+  padding: 0 10px;
+  height: 100%;
+}
